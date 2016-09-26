@@ -1,0 +1,49 @@
+{
+	"ImportPath": "github.com/takecy/gockertest",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "gopkg.in/bsm/ratelimit.v1",
+			"Rev": "db14e161995a5177acef654cb0dd785e8ee8bc22"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4",
+			"Comment": "v4.1.5",
+			"Rev": "49f197e6d11de35192fce19b2b9fd2f9b8b13c4a"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal",
+			"Comment": "v4.1.5",
+			"Rev": "49f197e6d11de35192fce19b2b9fd2f9b8b13c4a"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/consistenthash",
+			"Comment": "v4.1.5",
+			"Rev": "49f197e6d11de35192fce19b2b9fd2f9b8b13c4a"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/errors",
+			"Comment": "v4.1.5",
+			"Rev": "49f197e6d11de35192fce19b2b9fd2f9b8b13c4a"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/hashtag",
+			"Comment": "v4.1.5",
+			"Rev": "49f197e6d11de35192fce19b2b9fd2f9b8b13c4a"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/pool",
+			"Comment": "v4.1.5",
+			"Rev": "49f197e6d11de35192fce19b2b9fd2f9b8b13c4a"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/proto",
+			"Comment": "v4.1.5",
+			"Rev": "49f197e6d11de35192fce19b2b9fd2f9b8b13c4a"
+		}
+	]
+}

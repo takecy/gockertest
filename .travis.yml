@@ -1,0 +1,13 @@
+language: go
+
+go: 
+    - 1.7.1
+    - tip
+
+sudo: false
+
+services:
+    - docker
+
+script:
+    go test -v ./...
