@@ -49,7 +49,7 @@ $ go get -u github.com/takecy/gockertest
 
 <br/>
 for public registry.  
-[see redis example](./example/example.go)
+[see redis example](./example/redis.go)
 
 ```go
 args := gockertest.Arguments{
