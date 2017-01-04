@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/takecy/gockertest"
-	redis "gopkg.in/redis.v4"
+	redis "gopkg.in/redis.v5"
 )
 
 // Example: run redis container from private registry

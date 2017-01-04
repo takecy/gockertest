@@ -1,0 +1,12 @@
+hash: d71025e50c9633134b7d35eaf06a35eaa5c01aea8d36bb11db0948952a2824dd
+updated: 2017-01-04T17:58:45.579368318+09:00
+imports:
+- name: gopkg.in/redis.v5
+  version: b9cc17bae020d9c1f467ca0f27d7706c1683c370
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+testImports: []

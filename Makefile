@@ -1,4 +1,4 @@
-.PHONY: prepare test
+.PHONY: update test
 
-prepare:
-	go get -u github.com/tools/godep
+update:
+	glide up -s -u -v
