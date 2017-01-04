@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/takecy/gockertest.svg?branch=master)](https://travis-ci.org/takecy/gockertest)
 [![Go Report Card](https://goreportcard.com/badge/github.com/takecy/gockertest)](https://goreportcard.com/report/github.com/takecy/gockertest)
 
-![](https://img.shields.io/badge/golang-1.7.1-blue.svg?style=flat-square)
-![](https://img.shields.io/badge/docker-1.12.0-blue.svg?style=flat-square)
-![](https://img.shields.io/badge/docker--compose-1.8.0-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/golang-1.7.4-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/docker-1.12.5-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/docker--compose-1.9.0-blue.svg?style=flat-square)
 
 
 Simple tool for testing with docker container on each test by golang.  
@@ -49,7 +49,7 @@ $ go get -u github.com/takecy/gockertest
 
 <br/>
 for public registry.  
-[see redis example](./example/redis.go)
+[see redis example](./example/redis/redis.go)
 
 ```go
 args := gockertest.Arguments{
@@ -60,7 +60,7 @@ defer cli.Cleanup()
 ```
 
 for private registy with basic authentication.  
-[see redis example](./example/yours.go)
+[see redis example](./example/custom/yours.go)
 
 ```go
 args := gockertest.Arguments{

@@ -3,7 +3,7 @@ package gockertest
 import (
 	"testing"
 
-	redis "gopkg.in/redis.v4"
+	redis "gopkg.in/redis.v5"
 )
 
 func TestRun(t *testing.T) {

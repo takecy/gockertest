@@ -59,6 +59,13 @@ func Run(image string, args Arguments) *Cli {
 		panic(fmt.Errorf("ports.required"))
 	}
 
+	// update image
+	out, err := run("docker", "pull", image)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Printf("update.result:%+v\n", out)
+
 	// ports mapping
 	ports := make([]string, 0, len(args.Ports))
 	for k, v := range args.Ports {
