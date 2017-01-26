@@ -1,3 +1,0 @@
-package: github.com/takecy/gockertest
-import:
-- package: gopkg.in/redis.v5

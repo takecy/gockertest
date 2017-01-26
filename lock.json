@@ -1,0 +1,13 @@
+{
+    "memo": "c0a1972ccba25ec175ed879b5252816a75bc362b57345e529e5969c205c57eb8",
+    "projects": [
+        {
+            "name": "gopkg.in/redis.v5",
+            "version": "v5.2.2",
+            "revision": "8829ddcd8bdb333e477cc845946c4b9b2ef66280",
+            "packages": [
+                "."
+            ]
+        }
+    ]
+}

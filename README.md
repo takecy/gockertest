@@ -4,8 +4,8 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/takecy/gockertest)](https://goreportcard.com/report/github.com/takecy/gockertest)
 
 ![](https://img.shields.io/badge/golang-1.7.4-blue.svg?style=flat-square)
-![](https://img.shields.io/badge/docker-1.12.5-blue.svg?style=flat-square)
-![](https://img.shields.io/badge/docker--compose-1.9.0-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/docker-1.13.0-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/docker--compose-1.10.0-blue.svg?style=flat-square)
 
 
 Simple tool for testing with docker container on each test by golang.  

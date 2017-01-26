@@ -1,4 +1,7 @@
 .PHONY: update test
 
+prepare:
+	go get -u github.com/golang/dep
+
 update:
-	glide up -s -u -v
+	dep ensure -v -update

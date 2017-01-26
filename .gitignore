@@ -23,5 +23,4 @@ _testmain.go
 *.test
 *.prof
 
-Godeps/_workspace
-Godeps/Readme
+.vscode
