@@ -3,8 +3,8 @@
     "projects": [
         {
             "name": "gopkg.in/redis.v5",
-            "version": "v5.2.2",
-            "revision": "8829ddcd8bdb333e477cc845946c4b9b2ef66280",
+            "version": "v5.2.5",
+            "revision": "135cb12c7689ffe92338baf677a1e0d2086144dc",
             "packages": [
                 "."
             ]
