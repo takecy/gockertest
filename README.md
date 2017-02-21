@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/takecy/gockertest.svg?branch=master)](https://travis-ci.org/takecy/gockertest)
 [![Go Report Card](https://goreportcard.com/badge/github.com/takecy/gockertest)](https://goreportcard.com/report/github.com/takecy/gockertest)
 
-![](https://img.shields.io/badge/golang-1.7.4-blue.svg?style=flat-square)
-![](https://img.shields.io/badge/docker-1.13.0-blue.svg?style=flat-square)
-![](https://img.shields.io/badge/docker--compose-1.10.0-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/golang-1.8-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/docker-1.13.1-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/docker--compose-1.11.1-blue.svg?style=flat-square)
 
 
 Simple tool for testing with docker container on each test by golang.  
@@ -95,7 +95,7 @@ You should use network features.
 
 ## Testing
 ```
-$ go test ./...
+$ make test
 ```
 
 <br/>

@@ -5,3 +5,6 @@ prepare:
 
 update:
 	dep ensure -v -update
+
+test:
+	./test.sh

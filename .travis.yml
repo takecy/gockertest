@@ -1,7 +1,7 @@
 language: go
 
 go: 
-    - 1.7.1
+    - 1.8
     - tip
 
 sudo: false
@@ -10,4 +10,4 @@ services:
     - docker
 
 script:
-    go test -v ./...
+    make test
