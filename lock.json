@@ -6,7 +6,12 @@
             "version": "v5.2.5",
             "revision": "135cb12c7689ffe92338baf677a1e0d2086144dc",
             "packages": [
-                "."
+                ".",
+                "internal",
+                "internal/consistenthash",
+                "internal/hashtag",
+                "internal/pool",
+                "internal/proto"
             ]
         }
     ]
